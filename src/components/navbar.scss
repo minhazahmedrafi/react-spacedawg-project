@@ -1,0 +1,40 @@
+@import "../index.scss";
+.subHeader {
+  display: flex;
+  align-items: center;
+  padding: 35px 0px;
+  font-size: 14px;
+  border-bottom: 1px solid $primaryColor;
+  a {
+    color: $primaryColor;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .subCall {
+    .subIconsTitle {
+      display: flex;
+      justify-content: flex-end;
+      i {
+        font-size: 18px;
+        margin-right: 14px;
+      }
+    }
+  }
+}
+.navbar {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    .nav-item {
+      margin-left: 30px;
+      .nav-link {
+        color: #000000;
+      }
+      &:hover {
+        .nav-link {
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+}
