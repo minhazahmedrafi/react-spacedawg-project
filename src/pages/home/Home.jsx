@@ -1298,7 +1298,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="singlePerson">
                 <img src={images.Member01} alt="" />
                 <div className="memberInfo">
@@ -1318,7 +1318,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="singlePerson">
                 <img src={images.Member02} alt="" />
                 <div className="memberInfo">
@@ -1338,7 +1338,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="singlePerson">
                 <img src={images.Member03} alt="" />
                 <div className="memberInfo">
@@ -1358,7 +1358,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="singlePerson">
                 <img src={images.Member04} alt="" />
                 <div className="memberInfo">

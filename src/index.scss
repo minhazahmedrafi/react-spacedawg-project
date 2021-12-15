@@ -15,6 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #efefef;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -72,4 +73,176 @@ $textColor: #282828;
 .isActive {
   background: red;
   color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    .headerBanner {
+      padding-top: 14vh;
+    }
+  }
+  .innerAbout {
+    flex-direction: column;
+    .aboutMembers {
+      margin-left: 0px !important;
+    }
+  }
+  .aboutUS {
+    height: 150vh;
+  }
+  .team .singlePerson .memberInfo {
+    height: 36%;
+  }
+}
+
+@media (max-width: 991px) {
+  .subHeader {
+    display: none !important;
+  }
+  .navbar-brand {
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    padding-top: 20px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-left: 0px !important;
+    font-size: 20px;
+  }
+  .singleProgram {
+    margin-bottom: 30px;
+  }
+  .singleInfo {
+    margin-bottom: 30px !important;
+  }
+  .bannerrightButton {
+    margin-top: 0px !important;
+  }
+  .team .singlePerson .memberInfo {
+    height: 26%;
+  }
+
+  .team .singlePerson .memberInfo .socialIcons a i {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .footer .footerTitle {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  .fotterLogo {
+    margin-bottom: 20px !important;
+  }
+  .testimonial .singleTestimonial {
+    margin-bottom: 20px;
+  }
+  .testimonial {
+    padding: 50px 0px;
+  }
+  .trustedUs {
+    display: none;
+  }
+  .team {
+    .col-md-6 {
+      margin-bottom: 24px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header .headerBannerContent h1 {
+    font-size: 50px !important;
+  }
+  .newsTitle h3 {
+    font-size: 26px;
+  }
+  .aboutUS {
+    height: 100vh;
+  }
+  .aboutMembers {
+    display: none;
+  }
+  .header .headerBannerContent .bottomText svg {
+    margin-left: 0px;
+  }
+  .newsTitle {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .partnerShipRight {
+    img {
+      width: 90%;
+    }
+  }
+  .aboutUS {
+    height: 100vh;
+  }
+  .navbar-brand {
+    img {
+      width: 200px;
+    }
+  }
+  .aboutusContent {
+    padding: 50px 20px !important;
+  }
+  .recentNews .singleNews {
+    display: unset !important;
+  }
+  .rightContent {
+    margin-bottom: 30px;
+  }
+  .newsTitle {
+    h3 {
+      font-size: 22px;
+    }
+    svg {
+      width: 120px;
+    }
+  }
+  .partnerShip .partnerShipLeft h3 {
+    font-size: 24px;
+  }
+  .header .headerBannerContent h1 {
+    font-size: 34px !important;
+  }
+  .partnerShip .partnerShipLeft p {
+    font-size: 16px;
+    padding: 30px 0px;
+  }
+  .partnerShip .partnerBg {
+    display: none;
+  }
+
+  .completeProject .allProjectsInfo .singleInfo {
+    height: 120px;
+    width: 120px;
+  }
+  .completeProject .allProjectsInfo .singleInfo h2 {
+    font-size: 50px;
+  }
+  .completeProject .allProjectsInfo .singleInfo h6 {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  .testimonial .singleTestimonial .clientImage img {
+    height: 80px;
+    width: 80px;
+  }
+  .testimonial .singleTestimonial .clientImage {
+    right: -40px;
+  }
+  .footer .newsletter .store {
+    display: unset;
+    margin: 10px 0px;
+  }
+  .footer .newsletter .store .appStore {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .footer .contactLinks {
+    display: unset;
+  }
 }

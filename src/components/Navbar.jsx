@@ -66,7 +66,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon">
               {" "}
-              <Link to={"/"} className="nav-link" href="#">
+              <Link to={"/"} href="#">
                 <svg
                   width="40"
                   height="40"
