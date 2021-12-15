@@ -66,41 +66,39 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon">
               {" "}
-              <Link to={"/"} href="#">
-                <svg
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="20" cy="20" r="20" fill="#31A8E0" />
-                  <path
-                    d="M26 18H14"
-                    stroke="#FAFAFA"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M29 14H11"
-                    stroke="#FAFAFA"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M29 22H11"
-                    stroke="#FAFAFA"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M26 26H14"
-                    stroke="#FAFAFA"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Link>
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="20" cy="20" r="20" fill="#31A8E0" />
+                <path
+                  d="M26 18H14"
+                  stroke="#FAFAFA"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M29 14H11"
+                  stroke="#FAFAFA"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M29 22H11"
+                  stroke="#FAFAFA"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M26 26H14"
+                  stroke="#FAFAFA"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
