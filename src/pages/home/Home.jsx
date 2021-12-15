@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 
 const Home = () => {
+  console.log(window.location.pathname);
   return (
     <>
       <header className="header" id="header">
@@ -15,11 +16,11 @@ const Home = () => {
               <div className="col-12">
                 <div
                   id="carouselExampleSlidesOnly"
-                  class="carousel slide"
+                  className="carousel slide"
                   data-bs-ride="carousel"
                 >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
                       <div className="headerBannerContent">
                         <h1>
                           Growing Business <br /> With Us
@@ -55,16 +56,16 @@ const Home = () => {
                                 <path
                                   d="M8 1V15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                                 <path
                                   d="M1 8H15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                               </svg>
                               Read More
@@ -156,7 +157,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                       <div className="headerBannerContent">
                         <h1>
                           Growing Business <br /> With Us
@@ -192,16 +193,16 @@ const Home = () => {
                                 <path
                                   d="M8 1V15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                                 <path
                                   d="M1 8H15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                               </svg>
                               Read More
@@ -288,7 +289,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                       <div className="headerBannerContent">
                         <h1>
                           Growing Business <br /> With Us
@@ -324,16 +325,16 @@ const Home = () => {
                                 <path
                                   d="M8 1V15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                                 <path
                                   d="M1 8H15"
                                   stroke="#31A8E0"
-                                  stroke-width="2"
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
                                 />
                               </svg>
                               Read More
@@ -457,14 +458,14 @@ const Home = () => {
                         <path
                           d="M20 13V27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M13 20H27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </Link>
@@ -497,14 +498,14 @@ const Home = () => {
                         <path
                           d="M20 13V27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M13 20H27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </Link>
@@ -537,14 +538,14 @@ const Home = () => {
                         <path
                           d="M20 13V27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M13 20H27"
                           stroke="#fff"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </Link>
@@ -581,16 +582,16 @@ const Home = () => {
                     <path
                       d="M8 1V15"
                       stroke="#31A8E0"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M1 8H15"
                       stroke="#31A8E0"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                   Read More
@@ -636,16 +637,16 @@ const Home = () => {
                       <path
                         d="M8 1V15"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M1 8H15"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     Read More
@@ -668,7 +669,7 @@ const Home = () => {
                             height="88"
                             rx="44"
                             fill="#31A8E0"
-                            fill-opacity="0.3"
+                            fillOpacity="0.3"
                           />
                           <rect
                             x="9"
@@ -677,13 +678,13 @@ const Home = () => {
                             height="70"
                             rx="35"
                             fill="#31A8E0"
-                            fill-opacity="0.7"
+                            fillOpacity="0.7"
                           />
                           <path
                             d="M54 32L73.4444 44.5L54 57V32Z"
                             stroke="#FAFAFA"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -765,26 +766,26 @@ const Home = () => {
                       <path
                         d="M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M14 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M6 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M1 9H19"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <p>
@@ -815,26 +816,26 @@ const Home = () => {
                       <path
                         d="M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M14 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M6 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M1 9H19"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <p>
@@ -865,26 +866,26 @@ const Home = () => {
                       <path
                         d="M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M14 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M6 1V5"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M1 9H19"
                         stroke="black"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <p>
@@ -1103,14 +1104,14 @@ const Home = () => {
                           <path
                             d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M19.0004 18.9999L14.6504 14.6499"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1125,8 +1126,8 @@ const Home = () => {
                           <path
                             d="M20.2913 2.61183C19.7805 2.10083 19.1741 1.69547 18.5066 1.41891C17.8392 1.14235 17.1238 1 16.4013 1C15.6788 1 14.9634 1.14235 14.2959 1.41891C13.6285 1.69547 13.022 2.10083 12.5113 2.61183L11.4513 3.67183L10.3913 2.61183C9.3596 1.58013 7.96032 1.00053 6.50129 1.00053C5.04226 1.00053 3.64298 1.58013 2.61129 2.61183C1.5796 3.64352 1 5.04279 1 6.50183C1 7.96086 1.5796 9.36013 2.61129 10.3918L3.67129 11.4518L11.4513 19.2318L19.2313 11.4518L20.2913 10.3918C20.8023 9.88107 21.2076 9.27464 21.4842 8.60718C21.7608 7.93972 21.9031 7.22431 21.9031 6.50183C21.9031 5.77934 21.7608 5.06393 21.4842 4.39647C21.2076 3.72901 20.8023 3.12258 20.2913 2.61183V2.61183Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1148,14 +1149,14 @@ const Home = () => {
                           <path
                             d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M19.0004 18.9999L14.6504 14.6499"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1170,8 +1171,8 @@ const Home = () => {
                           <path
                             d="M20.2913 2.61183C19.7805 2.10083 19.1741 1.69547 18.5066 1.41891C17.8392 1.14235 17.1238 1 16.4013 1C15.6788 1 14.9634 1.14235 14.2959 1.41891C13.6285 1.69547 13.022 2.10083 12.5113 2.61183L11.4513 3.67183L10.3913 2.61183C9.3596 1.58013 7.96032 1.00053 6.50129 1.00053C5.04226 1.00053 3.64298 1.58013 2.61129 2.61183C1.5796 3.64352 1 5.04279 1 6.50183C1 7.96086 1.5796 9.36013 2.61129 10.3918L3.67129 11.4518L11.4513 19.2318L19.2313 11.4518L20.2913 10.3918C20.8023 9.88107 21.2076 9.27464 21.4842 8.60718C21.7608 7.93972 21.9031 7.22431 21.9031 6.50183C21.9031 5.77934 21.7608 5.06393 21.4842 4.39647C21.2076 3.72901 20.8023 3.12258 20.2913 2.61183V2.61183Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1197,14 +1198,14 @@ const Home = () => {
                           <path
                             d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M19.0004 18.9999L14.6504 14.6499"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1219,8 +1220,8 @@ const Home = () => {
                           <path
                             d="M20.2913 2.61183C19.7805 2.10083 19.1741 1.69547 18.5066 1.41891C17.8392 1.14235 17.1238 1 16.4013 1C15.6788 1 14.9634 1.14235 14.2959 1.41891C13.6285 1.69547 13.022 2.10083 12.5113 2.61183L11.4513 3.67183L10.3913 2.61183C9.3596 1.58013 7.96032 1.00053 6.50129 1.00053C5.04226 1.00053 3.64298 1.58013 2.61129 2.61183C1.5796 3.64352 1 5.04279 1 6.50183C1 7.96086 1.5796 9.36013 2.61129 10.3918L3.67129 11.4518L11.4513 19.2318L19.2313 11.4518L20.2913 10.3918C20.8023 9.88107 21.2076 9.27464 21.4842 8.60718C21.7608 7.93972 21.9031 7.22431 21.9031 6.50183C21.9031 5.77934 21.7608 5.06393 21.4842 4.39647C21.2076 3.72901 20.8023 3.12258 20.2913 2.61183V2.61183Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1242,14 +1243,14 @@ const Home = () => {
                           <path
                             d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M19.0004 18.9999L14.6504 14.6499"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1264,8 +1265,8 @@ const Home = () => {
                           <path
                             d="M20.2913 2.61183C19.7805 2.10083 19.1741 1.69547 18.5066 1.41891C17.8392 1.14235 17.1238 1 16.4013 1C15.6788 1 14.9634 1.14235 14.2959 1.41891C13.6285 1.69547 13.022 2.10083 12.5113 2.61183L11.4513 3.67183L10.3913 2.61183C9.3596 1.58013 7.96032 1.00053 6.50129 1.00053C5.04226 1.00053 3.64298 1.58013 2.61129 2.61183C1.5796 3.64352 1 5.04279 1 6.50183C1 7.96086 1.5796 9.36013 2.61129 10.3918L3.67129 11.4518L11.4513 19.2318L19.2313 11.4518L20.2913 10.3918C20.8023 9.88107 21.2076 9.27464 21.4842 8.60718C21.7608 7.93972 21.9031 7.22431 21.9031 6.50183C21.9031 5.77934 21.7608 5.06393 21.4842 4.39647C21.2076 3.72901 20.8023 3.12258 20.2913 2.61183V2.61183Z"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </Link>
@@ -1461,12 +1462,12 @@ const Home = () => {
                 <div className="leftInfo">
                   <div className="review">
                     <p className="text">
-                      <i class="fas fa-quote-left me-2"></i>
+                      <i className="fas fa-quote-left me-2"></i>
                       Your continued support and aggressive technology have
                       convinced me that signing another optimization contract
                       with Aseona, Inc. is the best approach in maintaining our
                       edge over the competition
-                      <i class="fas fa-quote-right ms-2"></i>
+                      <i className="fas fa-quote-right ms-2"></i>
                     </p>
                   </div>
                   <div className="nameStar">
@@ -1475,11 +1476,11 @@ const Home = () => {
                       <span>Centa Simpson</span>
                     </div>
                     <div className="rightStars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star-half-alt"></i>
                     </div>
                   </div>
                 </div>
@@ -1493,12 +1494,12 @@ const Home = () => {
                 <div className="leftInfo">
                   <div className="review">
                     <p className="text">
-                      <i class="fas fa-quote-left me-2"></i>
+                      <i className="fas fa-quote-left me-2"></i>
                       Your continued support and aggressive technology have
                       convinced me that signing another optimization contract
                       with Aseona, Inc. is the best approach in maintaining our
                       edge over the competition
-                      <i class="fas fa-quote-right ms-2"></i>
+                      <i className="fas fa-quote-right ms-2"></i>
                     </p>
                   </div>
                   <div className="nameStar">
@@ -1507,11 +1508,11 @@ const Home = () => {
                       <span>Centa Simpson</span>
                     </div>
                     <div className="rightStars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star-half-alt"></i>
                     </div>
                   </div>
                 </div>
@@ -1525,12 +1526,12 @@ const Home = () => {
                 <div className="leftInfo">
                   <div className="review">
                     <p className="text">
-                      <i class="fas fa-quote-left me-2"></i>
+                      <i className="fas fa-quote-left me-2"></i>
                       Your continued support and aggressive technology have
                       convinced me that signing another optimization contract
                       with Aseona, Inc. is the best approach in maintaining our
                       edge over the competition
-                      <i class="fas fa-quote-right ms-2"></i>
+                      <i className="fas fa-quote-right ms-2"></i>
                     </p>
                   </div>
                   <div className="nameStar">
@@ -1539,11 +1540,11 @@ const Home = () => {
                       <span>Centa Simpson</span>
                     </div>
                     <div className="rightStars">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star-half-alt"></i>
                     </div>
                   </div>
                 </div>
@@ -1565,7 +1566,7 @@ const Home = () => {
               </div>
               <div className="foooterAddress">
                 <div className="sigleAddress">
-                  <i class="fas fa-map-marker-alt"></i>
+                  <i className="fas fa-map-marker-alt"></i>
                   <svg
                     width="1"
                     height="30"
@@ -1582,7 +1583,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="sigleAddress">
-                  <i class="fas fa-mobile-alt"></i>
+                  <i className="fas fa-mobile-alt"></i>
                   <svg
                     className="mobileSeparetor"
                     width="1"
@@ -1599,7 +1600,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="sigleAddress">
-                  <i class="fab fa-telegram-plane"></i>
+                  <i className="fab fa-telegram-plane"></i>
                   <svg
                     width="1"
                     height="30"
@@ -1811,7 +1812,7 @@ const Home = () => {
                   </div>
                   <div className="rightContent">
                     <a href="#header">
-                      <i class="fas fa-chevron-up"></i>
+                      <i className="fas fa-chevron-up"></i>
                     </a>
                   </div>
                 </div>

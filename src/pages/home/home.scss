@@ -7,6 +7,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  .navbar-nav {
+    .homeActive {
+      color: $primaryColor !important;
+    }
+  }
 
   .headerBanner {
     margin-top: 30px;

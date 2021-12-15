@@ -78,26 +78,26 @@ const Navbar = () => {
                   <path
                     d="M26 18H14"
                     stroke="#FAFAFA"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M29 14H11"
                     stroke="#FAFAFA"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M29 22H11"
                     stroke="#FAFAFA"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M26 26H14"
                     stroke="#FAFAFA"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </Link>
@@ -108,8 +108,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   to={"/"}
-                  activeStyle="isActive"
-                  className="nav-link active"
+                  className="nav-link homeActive"
                   aria-current="page"
                   href="#"
                 >
@@ -117,7 +116,11 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/services"} className="nav-link" href="#">
+                <Link
+                  to={"/services"}
+                  className="nav-link servicesActive"
+                  href="#"
+                >
                   Services
                 </Link>
               </li>
