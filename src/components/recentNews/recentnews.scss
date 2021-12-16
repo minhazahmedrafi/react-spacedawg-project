@@ -1,0 +1,56 @@
+@import "../../index.scss";
+.recentNews {
+  .singleNews {
+    display: flex;
+    margin-bottom: 20px;
+    hr {
+      color: $primaryColor;
+    }
+    .leftImage {
+      margin-right: 35px;
+    }
+    .rightContent {
+      .paraContent {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        font-weight: 500;
+      }
+      a {
+        display: inline-flex;
+        svg {
+          margin-right: 16px;
+        }
+        p {
+          color: #000;
+          span {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+  .rightFaq {
+    .faqAccordion {
+      .accordion {
+        .accordion-item {
+          background: $primaryColor;
+        }
+        .accordion-item .accordion-button {
+          font-size: 18px;
+          box-shadow: none !important;
+          padding: 24px 40px;
+        }
+        .accordion-body {
+          font-size: 14px !important;
+          background: #fff;
+        }
+        .accordion-button:not(.collapsed) {
+          color: #fff !important;
+          background-color: $primaryColor !important;
+        }
+      }
+    }
+  }
+}

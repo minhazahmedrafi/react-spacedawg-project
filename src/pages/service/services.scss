@@ -1,19 +1,10 @@
 @import "../../index";
 .servicePage {
   height: 100vh;
-  background: rgb(213, 210, 216);
 
   .navbar-nav {
     .servicesActive {
       color: $primaryColor !important;
-    }
-  }
-  .serviceContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1 {
-      font-size: 100px;
     }
   }
 }

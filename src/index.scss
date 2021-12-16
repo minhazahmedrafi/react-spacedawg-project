@@ -35,7 +35,10 @@ section {
 // variables
 $primaryColor: #31a8e0;
 $textColor: #282828;
-
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+}
 // mixins
 @mixin btn {
   color: #fff;
@@ -69,12 +72,17 @@ $textColor: #282828;
 .fa-pinterest-p {
   color: #e60023;
 }
-
-.isActive {
-  background: red;
-  color: #fff;
+.newsTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  h3 {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
-
 @media (max-width: 1200px) {
   .header {
     .headerBanner {

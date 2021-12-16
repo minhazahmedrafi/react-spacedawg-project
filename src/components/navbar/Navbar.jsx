@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import images from "../images/export/exportImages";
+import images from "../../images/export/exportImages";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -123,22 +123,30 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/portfolio"} className="nav-link" href="#">
+                <Link
+                  to={"/portfolio"}
+                  className="nav-link portfolioActive"
+                  href="#"
+                >
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/team"} className="nav-link" href="#">
+                <Link to={"/team"} className="nav-link teamActive" href="#">
                   Team
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/blog"} className="nav-link" href="#">
+                <Link to={"/blog"} className="nav-link blogActive" href="#">
                   Blog
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/contact"} className="nav-link" href="#">
+                <Link
+                  to={"/contact"}
+                  className="nav-link contactActive"
+                  href="#"
+                >
                   Contact Us
                 </Link>
               </li>

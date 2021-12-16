@@ -1,16 +1,16 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-import ServiceItem from "../../components/servicesItem/ServiceItem";
-import "./services.scss";
+import TeamMembers from "../../components/teamMembers/TeamMembers";
+import "./team.scss";
 
-const Services = () => {
+const Team = () => {
   return (
     <>
-      <main className="servicePage">
+      <main className="teamPage">
         <Navbar />
-        <div className="serviceContent">
-          <ServiceItem />
+        <div className="teamPageContent">
+          <TeamMembers />
         </div>
       </main>
       {/* Footer */}
@@ -19,4 +19,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Team;

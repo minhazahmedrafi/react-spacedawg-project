@@ -1,0 +1,8 @@
+@import "../../index.scss";
+.teamPage {
+  .navbar-nav {
+    .teamActive {
+      color: $primaryColor !important;
+    }
+  }
+}

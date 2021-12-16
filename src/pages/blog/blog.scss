@@ -1,0 +1,8 @@
+@import "../../index.scss";
+.blogPage {
+  .navbar-nav {
+    .blogActive {
+      color: $primaryColor !important;
+    }
+  }
+}

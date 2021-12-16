@@ -1,16 +1,16 @@
 import React from "react";
+import "./portfolio.scss";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-import ServiceItem from "../../components/servicesItem/ServiceItem";
-import "./services.scss";
+import SelectWorks from "../../components/selectWorks/SelectWorks";
 
-const Services = () => {
+const Portfolio = () => {
   return (
     <>
-      <main className="servicePage">
+      <main className="portfolio">
         <Navbar />
-        <div className="serviceContent">
-          <ServiceItem />
+        <div className="portfolioContent">
+          <SelectWorks />
         </div>
       </main>
       {/* Footer */}
@@ -19,4 +19,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Portfolio;

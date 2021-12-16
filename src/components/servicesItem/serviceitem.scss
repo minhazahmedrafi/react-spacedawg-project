@@ -1,0 +1,81 @@
+@import "../../index";
+// program
+.program {
+  .singleProgram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 360px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.2s ease-in-out !important;
+    cursor: pointer;
+
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      color: $primaryColor;
+      margin: 34px 0px;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 100px;
+        background-color: $primaryColor;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-in-out !important;
+      }
+    }
+    .programOverlayContent {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 4%;
+      background-color: $primaryColor;
+      border-radius: 10px;
+      transition: all 0.2s ease-in-out !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .overlayContent {
+        visibility: hidden;
+        width: 276px;
+        height: 142px;
+        left: 432px;
+        top: 973px;
+        background: rgba(40, 40, 40, 0.7);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h3 {
+          font-size: 23px;
+          color: #fff;
+        }
+      }
+    }
+    &:hover {
+      .programOverlayContent {
+        width: 100%;
+        .overlayContent {
+          visibility: visible;
+          a {
+            svg:hover {
+              background-color: $primaryColor;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

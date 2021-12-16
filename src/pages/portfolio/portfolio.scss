@@ -1,0 +1,8 @@
+@import "../../index.scss";
+.portfolio {
+  .navbar-nav {
+    .portfolioActive {
+      color: $primaryColor !important;
+    }
+  }
+}

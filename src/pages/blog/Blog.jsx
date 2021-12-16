@@ -1,16 +1,16 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-import ServiceItem from "../../components/servicesItem/ServiceItem";
-import "./services.scss";
+import RecentNews from "../../components/recentNews/RecentNews";
+import "./blog.scss";
 
-const Services = () => {
+const Blog = () => {
   return (
     <>
-      <main className="servicePage">
+      <main className="blogPage">
         <Navbar />
-        <div className="serviceContent">
-          <ServiceItem />
+        <div className="blogPageContent">
+          <RecentNews />
         </div>
       </main>
       {/* Footer */}
@@ -19,4 +19,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Blog;
