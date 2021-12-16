@@ -52,7 +52,7 @@ const Navbar = () => {
       </div>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <Link className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             <img src={images.Logo} alt="" />
           </Link>
           <button

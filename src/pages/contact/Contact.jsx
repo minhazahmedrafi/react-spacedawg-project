@@ -41,6 +41,7 @@ const Contact = () => {
                       className="form-input"
                       type="email"
                       placeholder="Your Email*"
+                      required
                     />
                     <small className="name-error"></small>
                   </p>
