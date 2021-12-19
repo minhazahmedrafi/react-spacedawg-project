@@ -40,7 +40,7 @@ const ServiceItem = () => {
           >
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Program01} alt="" />
                     <h4>Business Planing</h4>
@@ -83,7 +83,7 @@ const ServiceItem = () => {
             </div>
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Program01} alt="" />
                     <h4>Program Managment</h4>
@@ -126,7 +126,7 @@ const ServiceItem = () => {
             </div>
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Design01} alt="" />
                     <h4>Design Solution</h4>
@@ -169,7 +169,7 @@ const ServiceItem = () => {
             </div>
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Design01} alt="" />
                     <h4>Design Solution</h4>
@@ -212,7 +212,7 @@ const ServiceItem = () => {
             </div>
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Design01} alt="" />
                     <h4>Design Solution</h4>
@@ -255,7 +255,7 @@ const ServiceItem = () => {
             </div>
             <div className="col-lg-4">
               <SwiperSlide>
-                <div className="singleProgram">
+                <div className="singleProgram mx-3 mx-sm-0">
                   <div className="topIcon">
                     <img src={images.Design01} alt="" />
                     <h4>Design Solution</h4>

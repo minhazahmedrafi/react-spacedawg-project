@@ -720,7 +720,7 @@ const Home = () => {
             >
               <div className="col-lg-4">
                 <SwiperSlide>
-                  <div className="singleTestimonial ms-2 ms-sm-0">
+                  <div className="singleTestimonial mx-3 mx-sm-0">
                     <div className="leftInfo">
                       <div className="review">
                         <p className="text">
@@ -754,7 +754,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4">
                 <SwiperSlide>
-                  <div className="singleTestimonial ms-2 ms-sm-0">
+                  <div className="singleTestimonial mx-3 mx-sm-0">
                     <div className="leftInfo">
                       <div className="review">
                         <p className="text">
@@ -788,7 +788,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4">
                 <SwiperSlide>
-                  <div className="singleTestimonial ms-2 ms-sm-0">
+                  <div className="singleTestimonial mx-3 mx-sm-0">
                     <div className="leftInfo">
                       <div className="review">
                         <p className="text">

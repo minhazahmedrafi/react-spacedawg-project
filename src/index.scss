@@ -238,13 +238,6 @@ $textColor: #282828;
     margin-top: 0px;
   }
 
-  .testimonial .singleTestimonial .clientImage img {
-    height: 80px;
-    width: 80px;
-  }
-  .testimonial .singleTestimonial .clientImage {
-    right: -40px;
-  }
   .footer .newsletter .store {
     display: unset;
     margin: 10px 0px;
@@ -255,5 +248,19 @@ $textColor: #282828;
   }
   .footer .contactLinks {
     display: unset;
+  }
+  .singleTestimonial {
+    margin: 0px auto;
+    .clientImage {
+      display: none;
+    }
+  }
+  .recentNews
+    .rightFaq
+    .faqAccordion
+    .accordion
+    .accordion-item
+    .accordion-button {
+    padding: 14px !important;
   }
 }
