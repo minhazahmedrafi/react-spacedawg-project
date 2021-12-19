@@ -8,6 +8,11 @@ import ServiceItem from "../../components/servicesItem/ServiceItem";
 import SelectWorks from "../../components/selectWorks/SelectWorks";
 import TeamMembers from "../../components/teamMembers/TeamMembers";
 import RecentNews from "../../components/recentNews/RecentNews";
+import "swiper/swiper.min.css";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import SwiperCore, { Pagination, Autoplay } from "swiper";
+
+SwiperCore.use([Pagination, Autoplay]);
 
 const Home = () => {
   return (
@@ -666,6 +671,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* Testimonials */}
       <section className="testimonial" id="testimonial">
         <div className="container">
           <div className="row">
@@ -686,102 +692,135 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4">
-              <div className="singleTestimonial">
-                <div className="leftInfo">
-                  <div className="review">
-                    <p className="text">
-                      <i className="fas fa-quote-left me-2"></i>
-                      Your continued support and aggressive technology have
-                      convinced me that signing another optimization contract
-                      with Aseona, Inc. is the best approach in maintaining our
-                      edge over the competition
-                      <i className="fas fa-quote-right ms-2"></i>
-                    </p>
-                  </div>
-                  <div className="nameStar">
-                    <div className="leftName">
-                      <p>Centa Simpson</p>
-                      <span>Centa Simpson</span>
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={10}
+              loop={true}
+              autoplay={{
+                delay: 3000,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
+              className="mySwiper"
+            >
+              <div className="col-lg-4">
+                <SwiperSlide>
+                  <div className="singleTestimonial ms-2 ms-sm-0">
+                    <div className="leftInfo">
+                      <div className="review">
+                        <p className="text">
+                          <i className="fas fa-quote-left me-2"></i>
+                          Your continued support and aggressive technology have
+                          convinced me that signing another optimization
+                          contract with Aseona, Inc. is the best approach in
+                          maintaining our edge over the competition
+                          <i className="fas fa-quote-right ms-2"></i>
+                        </p>
+                      </div>
+                      <div className="nameStar">
+                        <div className="leftName">
+                          <p>Centa Simpson</p>
+                          <span>Centa Simpson</span>
+                        </div>
+                        <div className="rightStars">
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
                     </div>
-                    <div className="rightStars">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star-half-alt"></i>
+                    <div className="clientImage">
+                      <img src={images.Client1} alt="" />
                     </div>
                   </div>
-                </div>
-                <div className="clientImage">
-                  <img src={images.Client1} alt="" />
-                </div>
+                </SwiperSlide>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="singleTestimonial">
-                <div className="leftInfo">
-                  <div className="review">
-                    <p className="text">
-                      <i className="fas fa-quote-left me-2"></i>
-                      Your continued support and aggressive technology have
-                      convinced me that signing another optimization contract
-                      with Aseona, Inc. is the best approach in maintaining our
-                      edge over the competition
-                      <i className="fas fa-quote-right ms-2"></i>
-                    </p>
-                  </div>
-                  <div className="nameStar">
-                    <div className="leftName">
-                      <p>Centa Simpson</p>
-                      <span>Centa Simpson</span>
+              <div className="col-lg-4">
+                <SwiperSlide>
+                  <div className="singleTestimonial ms-2 ms-sm-0">
+                    <div className="leftInfo">
+                      <div className="review">
+                        <p className="text">
+                          <i className="fas fa-quote-left me-2"></i>
+                          Your continued support and aggressive technology have
+                          convinced me that signing another optimization
+                          contract with Aseona, Inc. is the best approach in
+                          maintaining our edge over the competition
+                          <i className="fas fa-quote-right ms-2"></i>
+                        </p>
+                      </div>
+                      <div className="nameStar">
+                        <div className="leftName">
+                          <p>Centa Simpson</p>
+                          <span>Centa Simpson</span>
+                        </div>
+                        <div className="rightStars">
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
                     </div>
-                    <div className="rightStars">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star-half-alt"></i>
+                    <div className="clientImage">
+                      <img src={images.Client2} alt="" />
                     </div>
                   </div>
-                </div>
-                <div className="clientImage">
-                  <img src={images.Client2} alt="" />
-                </div>
+                </SwiperSlide>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="singleTestimonial">
-                <div className="leftInfo">
-                  <div className="review">
-                    <p className="text">
-                      <i className="fas fa-quote-left me-2"></i>
-                      Your continued support and aggressive technology have
-                      convinced me that signing another optimization contract
-                      with Aseona, Inc. is the best approach in maintaining our
-                      edge over the competition
-                      <i className="fas fa-quote-right ms-2"></i>
-                    </p>
-                  </div>
-                  <div className="nameStar">
-                    <div className="leftName">
-                      <p>Centa Simpson</p>
-                      <span>Centa Simpson</span>
+              <div className="col-lg-4">
+                <SwiperSlide>
+                  <div className="singleTestimonial ms-2 ms-sm-0">
+                    <div className="leftInfo">
+                      <div className="review">
+                        <p className="text">
+                          <i className="fas fa-quote-left me-2"></i>
+                          Your continued support and aggressive technology have
+                          convinced me that signing another optimization
+                          contract with Aseona, Inc. is the best approach in
+                          maintaining our edge over the competition
+                          <i className="fas fa-quote-right ms-2"></i>
+                        </p>
+                      </div>
+                      <div className="nameStar">
+                        <div className="leftName">
+                          <p>Centa Simpson</p>
+                          <span>Centa Simpson</span>
+                        </div>
+                        <div className="rightStars">
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
                     </div>
-                    <div className="rightStars">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star-half-alt"></i>
+                    <div className="clientImage">
+                      <img src={images.Client3} alt="" />
                     </div>
                   </div>
-                </div>
-                <div className="clientImage">
-                  <img src={images.Client3} alt="" />
-                </div>
+                </SwiperSlide>
               </div>
-            </div>
+            </Swiper>
           </div>
         </div>
       </section>
